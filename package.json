@@ -1,0 +1,22 @@
+{
+  "name": "poc-gemini",
+  "version": "1.0.0",
+  "description": "POC - integração com endpoint Cloud Function da GCP para acessar Google Gemini",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "GCP",
+    "POC",
+    "Cloud Functions"
+  ],
+  "author": "Fabio Henrique Campos da Costa",
+  "license": "ISC"
+}
